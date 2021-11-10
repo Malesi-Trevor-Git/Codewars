@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        PalindromeString.isPalindrome("Hello");
-        PalindromeString.isPalindrome("madam");
+       int[] arr={1,2,3,4,5,6};
+       SortOdd.sortArr(arr);
     }
 }
