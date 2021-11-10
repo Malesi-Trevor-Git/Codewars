@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        System.out.println(DigitalRoot.digRoot(16));
+        System.out.println(ExesandOhs.isEqual("ooxx"));
+        System.out.println(ExesandOhs.isEqual("xooxx"));
     }
 }
