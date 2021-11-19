@@ -7,15 +7,17 @@ import java.util.Iterator;
 
 public class Main{
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("c");
-        list.add("a");
-        list.add("z");
-        list.add("q");
-        Iterator<String> it=list.iterator();
-        while (it.hasNext()){
-            String a=it.next();
-            System.out.println(a);
+        System.out.println(Main.getHigher(21));
+    }
+    public static int getHigher(int n){
+        int next=n+100;
+        int result=0;
+        for (int i=n;i<=n+100000;i++){
+            if (i%5==0){
+                result=i;
+                break;
+            }
         }
+        return result;
     }
 }
